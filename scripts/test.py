@@ -6,7 +6,7 @@ import re
 import string
 import types
 
-root_dir = '/Users/cindywang/Documents/research/TSG/code/thumt'
+root_dir = '/Users/cindywang/Documents/research/TSG/code/neuralTSG'
 code_dir = root_dir + '/thumt'
 
 def version():

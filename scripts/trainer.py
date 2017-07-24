@@ -4,7 +4,7 @@ import sys
 import os
 import types
 
-root_dir = '~/thumt/thumt_develop/thumt'
+root_dir = '/Users/cindywang/Documents/research/TSG/code/neuralTSG'
 code_dir = root_dir + '/thumt'
 
 def version():
