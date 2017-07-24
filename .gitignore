@@ -1,0 +1,4 @@
+model/
+validation/
+checkpoint_*
+corpus/

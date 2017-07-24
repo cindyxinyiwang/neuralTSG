@@ -1,0 +1,18 @@
+(S(x0:NP-C) (x1:VP) (x2:.))->x0 x1 x2
+(NP-C(x0:NPB))->x0
+(NPB (DT(the)) (x0:NNS))->x0
+(NNS(gunmen))->枪手
+(VP (VBD(were)) (x0:VP-C))->x0
+(VP-C (x0:VBN) (x1:PP))->x1 x0
+(PP (x0:IN) (x1:NP-C))->x0 x1
+(IN (by))->被
+(NP-C (x0:NPB))->x0
+(NPB (DT(the)) (x0:NN))->x0
+(NN (police))->警方
+(VBN (killed))->击毙
+(. (.))->.
+
+(S (NP-C (NPB (DT (the) (NNS (gunmen))) (x0:VP) (. (.)))))-> 枪手 x0 .
+(VP (VPD (were)) (VP-C (x0:VBN) (PP (IN (by)) (x1:NP-C)))))->被 x1 x0
+(NP-C (NPB (DT(the)) (NN(polic)) ))->警方
+(VBN (killed))->击毙
